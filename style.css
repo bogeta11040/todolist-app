@@ -1,0 +1,15 @@
+#mainView {
+/*  display: none; */
+}
+
+#addTaskView {
+  display: none;
+}
+
+#editView {
+  display: none;
+}
+
+#editTask {
+  display: none;
+}

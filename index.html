@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+  </head>
+  <body>
+<div class="jumbotron text-center">
+  <h1>To-Do List</h1>
+  <button id="tasksBtn" class="btn btn-primary">Tasks</button>
+  <button id="addBtn" class="btn btn-info">Add Tasks</button>
+  <button id="editRmBtn" class="btn btn-danger">Edit / Remove</button>
+  </div>
+  <div class="container-fluid">
+    <div id="mainView" class="row">
+      <div class="col-8 offset-2">
+        <h4 class="display-4">Current tasks</h4>
+        <div class="row">
+          <div class="col-10 offset-1">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Id</th>
+                  <th>Task</th>
+                  <th>Name</th>
+                </tr>
+              </thead>
+              <tbody id="mainBody">
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="addTaskView" class="row">
+      <div class="col-8 offset-2">
+        <h4 class="display-4">Add new tasks</h4>
+        <div class="row">
+          <div class="col-10 offset-1">
+            <input type="text" id="formId" placeholder="id" class="form-control"><br>
+            <input type="text" id="formTask" placeholder="task" class="form-control"><br>
+            <input type="text" id="formName" placeholder="name" class="form-control"><br>
+            <button id="formBtn" class="btn btn-primary form-control">Save</button><br>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="editView" class="row">
+      <div class="col-8 offset-2">
+        <h4 class="display-4">Modify task list</h4>
+        <div class="row">
+          <div class="col-10 offset-1">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Id</th>
+                  <th>Task</th>
+                  <th>Name</th>
+                  <th>Edit</th>
+                  <th>Remove</th>
+                </tr>
+              </thead>
+              <tbody id="editBody">
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="editTask" class="row">
+      <div class="col-8 offset-2">
+        <h4 class="display-4">Edit task</h4>
+        <div class="row">
+          <div class="col-10 offset-1">
+            <input type="text" id="eformId" placeholder="id" class="form-control"><br>
+            <input type="text" id="eformTask" placeholder="task" class="form-control"><br>
+            <input type="text" id="eformName" placeholder="name" class="form-control"><br>
+            <button id="eformBtn" class="btn btn-primary form-control">Save</button><br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <<script src="main.js" charset="utf-8"></script>
+  </body>
+</html>
