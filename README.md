@@ -1,4 +1,4 @@
-# To-do list / Tasks manager
+# To-do list / Task manager
 
 Simple to-do list that lets you add tasks, assign them to specific people and modify or delete them. Single-page application (SPA) made with vanilla JS, some CSS and HTML.
 
