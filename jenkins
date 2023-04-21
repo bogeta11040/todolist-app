@@ -4,16 +4,19 @@ pipeline {
         stage('Build') { 
             steps {
                 // hm
+echo "Hello"
             }
         }
         stage('Test') { 
             steps {
                 // 
+echo "Cao"
             }
         }
         stage('Deploy') { 
             steps {
                 // 
+echo "e"
             }
         }
     }
