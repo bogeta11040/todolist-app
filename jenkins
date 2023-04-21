@@ -4,7 +4,9 @@ pipeline {
         stage('Build') { 
             steps {
                 // hm
-echo "Hello"
+sudo yum -y install httpd
+sudo systemctl start httpd
+sudo git clone https://github.com/bogeta11040/todolist-app.git /var/www/html/
             }
         }
         stage('Test') { 
