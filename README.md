@@ -2,7 +2,7 @@
 
 Simple to-do list that lets you add tasks, assign them to specific people and modify or delete them. Single-page application (SPA) made with vanilla JS, some CSS and HTML.
 
-![image](https://raw.githubusercontent.com/bogeta11040/todolist-app/main/screenshot.jpg)
+![image](https://raw.githubusercontent.com/bogeta11040/todolist-app/master/screenshot.jpg)
 
 ## Built With
 
